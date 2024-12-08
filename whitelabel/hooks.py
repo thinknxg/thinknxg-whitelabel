@@ -5,14 +5,14 @@ from . import __logo__ as app_logo
 
 
 app_name = "whitelabel"
-app_title = "Whitelabel"
-app_publisher = "Bhavesh Maheshwari"
-app_description = "ERPNext Whitelabel"
+app_title = "thinknxg whitelabel"
+app_publisher = "thinknxg"
+app_description = "thinknxg ERP Whitelabel"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "maheshwaribhavesh95863@gmail.com"
+app_email = ""
 app_license = "MIT"
-app_logo_url = '/assets/whitelabel/images/whitelabel_logo.jpg'
+app_logo_url = '/assets/whitelabel/images/thinknxg-logo.jpg'
 
 # Includes in <head>
 # ------------------
@@ -49,8 +49,8 @@ web_include_css = "/assets/whitelabel/css/whitelabel_web.css"
 # get_website_user_home_page = "whitelabel.utils.get_home_page"
 
 website_context = {
-	"favicon": app_logo or "/assets/whitelabel/images/whitelabel_logo.jpg",
-	"splash_image": app_logo or "/assets/whitelabel/images/whitelabel_logo.jpg"
+	"favicon": app_logo or "/assets/whitelabel/images/thinknxg-logo.jpg",
+	"splash_image": app_logo or "/assets/whitelabel/images/thinknxg-logo.jpg"
 }
 after_migrate = ['whitelabel.api.whitelabel_patch']
 

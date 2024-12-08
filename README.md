@@ -1,4 +1,4 @@
-# ERPNext Whitelabel
+# thinknxg ERP Whitelabel
 
 This app has the following features:
 
@@ -13,7 +13,7 @@ This app has the following features:
 - Update onboard steps to remove video and documentation link (Version 13)
 - Manage Navbar Background color from Whitelabel setting
 - Manage Custom Navbar Title and CSS for title from Whitelabel setting
-- Change Login Page Title from Whitelabel Setting Page (https://github.com/bhavesh95863/whitelabel/issues/7)
+- Change Login Page Title from Whitelabel Setting Page 
 
 
 
@@ -38,7 +38,7 @@ Below are important settings in the Whitelabel setting page:
 ## Installation Steps:
 
 1. Clone the repository:
-   bench get-app https://github.com/bhavesh95863/whitelabel
+   bench get-app https://github.com/thinknxg/thinknxg-whitelabel
 
 3. Install the app for a specific site:
    bench --site sitename install-app whitelabel
@@ -53,10 +53,7 @@ Below are important settings in the Whitelabel setting page:
    bench clear-cache
 
 
-## Contributing
-Contributions to the whitelable module are welcome! If you have ideas for improvements or new features, feel free to submit a pull request or open an issue on our GitHub repository.
-
 ## License
-This project is licensed under the MIT License.
+Distributed under [GNU AFFERO GENERAL PUBLIC LICENSE](license.txt)
 
 
